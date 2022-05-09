@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+h2 {
+  margin: 0 0 .75rem 0;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+p {
+  margin:0;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+  a: .attribution {
+    color: hsl(228, 45%, 44%);
+  }
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.card {
+  max-width: 28.125rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding-bottom: 3rem;
+  box-shadow: 0rem 25px 15px -5px hsl(225, 100%, 90%);
+}
+
+.hero-img {
+  display: block;
+  max-width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.order-summary {
+  max-width: 100%;
+  margin: 1rem 3rem;
+    line-height: 1.5
+}
+
+.subscription {
+  display: flex;
+  max-height: 6.25rem;
+  width: 21.875rem;
+  border-radius: .75rem;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  margin: 1.5rem auto 2rem;
+  padding: 1rem;
+
+}
+
+.icon-music {
+ margin: 0;
+ padding: 0;
+ display: block;
+}
+
+.annual-plan {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  width: 50%;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+.change {
+  margin-left: 2rem;
+  font-weight: 700;
+}
+
+.change a:hover {
+  text-decoration: none;
+  color: #766cf1;
+}
+
+.payment {
+  margin: 0 auto 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21.875rem;
+  height: 3rem;
+  border-radius: .75rem;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0rem 30px 15px -5px hsl(225, 100%, 95%);
+}
+
+.paytext {
+  color: hsl(225, 100%, 94%);
+}
+
+.payment:hover {
+  background-color: #766cf1;
+}
+
+.cancel a {
+  font-weight: 700;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel a:hover {
+  color: black;
+}
